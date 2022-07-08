@@ -1,0 +1,6 @@
+50F339
+I made a few minor modifications to the program:
+- Placed solvePath before solveMaze as I utilize solvePath in order to get a return value for solveMaze
+- Changed parameters of readMaze to include pointers rather than the variables in order to actually keep the scanned values
+- Removed the argv as a parameter from printError to transform it purely into a print function, transferred error checking into the main programwith a few extra if-else statements
+
